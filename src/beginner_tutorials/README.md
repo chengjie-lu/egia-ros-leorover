@@ -86,3 +86,5 @@ source ./devel/setup.bash
 rosrun beginner_tutorials talker.py
 rosrun beginner_tutorials listener.py
 ```
+
+Practice 2: Create Publisher/Subscriber to add two numbers
