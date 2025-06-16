@@ -88,3 +88,15 @@ rosrun beginner_tutorials listener.py
 ```
 
 ## Practice 2: Create a Publisher/Subscriber to add two numbers
+
+## Practice 3: Create a Service/Client
+
+```sh
+roscd beginner_tutorials
+cd scripts
+```
+
+Create scripts/[add_two_ints_server.py](https://github.com/chengjie-lu/egia-ros-leorover/blob/main/src/beginner_tutorials/scripts/add_two_ints_server.py)
+
+Create scripts/[add_two_ints_client.py](https://github.com/chengjie-lu/egia-ros-leorover/blob/main/src/beginner_tutorials/scripts/add_two_ints_client.py)
+
