@@ -100,3 +100,19 @@ Create scripts/[add_two_ints_server.py](https://github.com/chengjie-lu/egia-ros-
 
 Create scripts/[add_two_ints_client.py](https://github.com/chengjie-lu/egia-ros-leorover/blob/main/src/beginner_tutorials/scripts/add_two_ints_client.py)
 
+Building your nodes
+
+```sh
+cd ~/catkin_ws
+catkin_make
+```
+Run the Service/Client
+
+```sh
+# Make sure that a roscore is up and running:
+roscore
+cd catkin_ws
+source ./devel/setup.bash
+rosrun beginner_tutorials add_two_ints_server.py
+rosrun beginner_tutorials add_two_ints_client.py 1 3
+```
