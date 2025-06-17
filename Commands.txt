@@ -1,0 +1,19 @@
+
+
+gazebo
+
+roslaunch leo_gazebo leo_gazebo.launch world_name:=$(rospack find leo_gazebo_worlds)/worlds/egia_test.world y:=-1.9
+
+roscd leo_description/urdf
+
+roslaunch leo_gazebo leo_gazebo_egia.launch
+
+rosnode list
+
+rqt_graph
+
+rosnode info <node>
+
+rostopic echo <rostopic_name>
+
+roslaunch leo_viz rviz.launch
